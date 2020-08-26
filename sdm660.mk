@@ -374,10 +374,9 @@ PRODUCT_PACKAGES += \
     ipacm \
     IPACM_cfg.xml
 
-# Vibrator
+# USB
 PRODUCT_PACKAGES += \
-    android.hardware.vibrator@1.0-impl:64 \
-    android.hardware.vibrator@1.0-service
+    android.hardware.usb@1.0-service.basic
 
 # Wifi
 PRODUCT_PACKAGES += \
