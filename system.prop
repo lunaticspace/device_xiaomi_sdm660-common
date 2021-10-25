@@ -18,6 +18,9 @@ dalvik.vm.dex2oat64.enabled=true
 # Dex2oat
 ro.sys.fw.dex2oat_thread_count=8
 
+# Graphic
+renderthread.skia.reduceopstasksplitting=true
+
 # Increase Scrool Smoothness 
 ro.vendor.qti.cgroup_follow.enable=true
 persist.vendor.qti.inputopts.enable=true
