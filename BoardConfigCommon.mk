@@ -45,6 +45,9 @@ TARGET_KERNEL_ADDITIONAL_FLAGS := \
     HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-line-argument"
 
 
+# Build Rules
+BUILD_BROKEN_DUP_RULES := true
+
 # QCOM hardware
 BOARD_USES_QCOM_HARDWARE := true
 
